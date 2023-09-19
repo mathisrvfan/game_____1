@@ -5,7 +5,7 @@
 <script>
   setTimeout(function(){
     setInterval(function(){
-      document.getElementById(1).innerHTML = game.points
+      document.getElementById(1).innerHTML = game.points.toStringWithDecimalPlaces()
     },30)
   },100)
 </script>
