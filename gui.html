@@ -1,3 +1,11 @@
 <p id = 1>you have 0 points</p>
 <p id = 2>you get 1 point/s</p>
 <script src = "\OmegaNum.js"></script>
+<script src = "\main.js"></script>
+<script>
+  setTimeout(function(){
+    setInterval(function(){
+      document.getElementById(1).innerHTML = game.points
+    },30)
+  },100)
+</script>
